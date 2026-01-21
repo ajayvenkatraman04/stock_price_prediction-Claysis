@@ -1,0 +1,8 @@
+torch
+pandas
+numpy
+yfinance==0.2.18
+scikit-learn
+matplotlib
+Flask
+urllib3<2.0.0

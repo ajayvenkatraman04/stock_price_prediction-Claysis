@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Prediction for {{ ticker }}</h1>
+
+        <div class="result-card">
+            <h2>Latest Prediction: ${{ prediction }}</h2>
+            <img src="data:image/png;base64,{{ plot_url }}" alt="Prediction Chart">
+        </div>
+
+        <a href="/" class="back-link">Try Another Ticker</a>
+    </div>
+</body>
+
+</html>
