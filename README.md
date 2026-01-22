@@ -1,6 +1,6 @@
 # Stock Price Prediction Web App
 
-This project was developed as part of the **Technical Task Round** for the interview process at **Claysis Technologies**.
+This project was developed as part of the **Technical Task Round** for the interview process at **Claysys Technologies**.
 
 It is a full-stack web application that uses Deep Learning (LSTM) to predict stock price movements based on historical data.
 
